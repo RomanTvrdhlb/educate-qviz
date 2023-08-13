@@ -1,0 +1,38 @@
+<div class="overlay fixed-block" data-overlay>
+
+    <div class="modal modal-entry" data-popup="entry">
+        <div class="modal__box" role="dialog" aria-modal="true">
+            <button class="close modal__close" aria-label="Закрыть модальное окно">
+                <svg width='50' height='50'>
+                    <use href='img/sprite/sprite.svg#close'></use>
+                </svg>
+            </button>
+
+            <span class="main-form__title">Введіть, будь ласка, ваші данні та натисніть на кнопку</span>
+            <form action="#" class="main-form">
+                <ul class="main-form__list">
+                  <li class="main-form__item">
+                    <input type="text" name="name" class="input-name" placeholder="Ваше ім’я">
+                  </li>
+                  <li class="main-form__item">
+                    <svg width='30' height='20'>
+                      <use href='img/sprite/sprite.svg#flag-ua'></use>
+                    </svg>
+                    <input type="tel" name="phone" class="input-phone" placeholder=" +380">
+                  </li>
+                  <li class="main-form__item">
+                    <input type="text" name="education" class="input-education" placeholder="Напрямок навчання">
+                  </li>
+                </ul>
+        
+                <div class="main-form__bottom">
+                  <button class="main-button" data-btn-modal="success">Зареєструватись на консультацію</button>
+        
+                  <p>Після заповнення форми експерт з профорієнтації зв’яжеться з Вами протягом 24 годин.</p>
+                </div>
+        
+              </form>
+        </div>
+    </div>
+
+</div>

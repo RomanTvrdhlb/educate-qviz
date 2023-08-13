@@ -1,0 +1,35 @@
+.form-list {
+  display: flex;
+  flex-direction: column;
+  grid-gap: clamp(40px, 6.838vw, 80px);
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    grid-gap: clamp(20px, 2.393vw, 28px);
+  }
+
+  &__text {
+    font-family: var(--font-family);
+    font-size: clamp(18px, 2.393vw, 28px);
+    color: rgba(var(--cl-c), 1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .checkbox {
+    &__label {
+      display: flex;
+      align-items: center;
+      grid-gap: 5px;
+    }
+
+    .radio-checkbox__content {
+      font-family: var(--font-family);
+      font-size: 22px;
+      font-weight: 500;
+      color: rgba(var(--cl-b), 1);
+    }
+  }
+}

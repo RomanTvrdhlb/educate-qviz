@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+span{
+  margin: 0;
+  padding: 0;
+
+  .brush {
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    color: inherit;
+    position: relative;
+
+    &::before{
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -42%);
+      background-image: var(--brush);
+      background-size: contain;
+      background-repeat: repeat-x;
+      background-position: center;
+      width: 106%;
+      height: 100%;
+      z-index: -1;
+    }   
+  }
+}
+
+.main-button {
+  svg {
+    fill: currentColor;
+  }
+  max-width: 487px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(18px, 2.051vw, 24px);
+  line-height: 120.833%;
+  color:  rgba(var(--cl-a),1.0);
+  border-radius: clamp(50px, 4.701vw, 55px);
+  padding: clamp(10px, 1.709vw, 20px) clamp(10px, 6.838vw, 80px);
+  transition: all .3s ease;
+
+  svg{
+    fill: rgba(var(--cl-a),1.0);
+    transition: all .3s ease;
+    margin-bottom: -3px;
+  }
+
+  &--blue {
+    background: rgba(var(--bg-e),1.0);
+
+    &:hover {
+      background: rgba(var(--bg-d),1.0);
+      color: rgba(var(--cl-c),1.0);
+
+      svg{
+        fill: rgba(var(--cl-c),1.0);
+      }
+    }
+  }
+
+  @include mobile{
+    max-width: 100%;
+  }
+}

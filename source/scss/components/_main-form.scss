@@ -1,0 +1,73 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: clamp(35px, 6.494vw, 50px);
+
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: clamp(15px, 2.597vw, 20px);
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__bottom{
+    display: flex;
+    grid-gap: clamp(15px, 3.247vw, 25px);
+    flex-direction: column; 
+ }
+
+  &__item {
+    position: relative;
+
+    svg {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      transform: translateY(-50%);
+      left: clamp(40px, 5.983vw, 70px);
+    }
+
+    input {
+      width: 100%;
+      height: clamp(63px, 6.239vw, 73px);
+      width: 100%;
+      border-radius: 50px;
+      text-indent: clamp(40px, 5.983vw, 70px);
+
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 500;
+      font-size: clamp(16px, 1.88vw, 22px);
+      line-height: 100%;
+      display: flex;
+      align-items: center;
+
+      color: rgba(var(--cl-c),1.0);
+
+      &::placeholder {
+        color: #C9C9C9;
+      }
+
+      &[type="tel"] {
+        text-indent: clamp(80px, 9.402vw, 110px);
+      }
+    }
+  }
+
+  .input-phone {
+    position: relative;
+  }
+
+  p{
+    font-size: clamp(15px, 2.338vw, 18px);
+    line-height: 130.556%;
+  }
+}

@@ -1,0 +1,1169 @@
+@include('partials/head.html')
+
+<body class="home">
+  @include('partials/header.html')
+
+  <main>
+
+    <section class="main-section">
+      <div class="container">
+
+
+        <div class="main-section__box">
+          <h1 class="main-section__title"><i class="brush">Тест профорієнтації</i></h1>
+
+          <form class="questions-form">
+
+            <div class='form-slider'>
+              <div class='form-slider__container swiper-container'>
+                <ul class='form-slider__wrapper swiper-wrapper'>
+                  <li class='form-slider__slide swiper-slide'>
+
+                    <ul class="form-list">
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">1. Як на мене, контролювати інших людей та вести облік — нудне
+                            заняття.</span>
+
+                            <ul class="choice-list">
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <input type="radio" name="ques1" value="1" checked class="custom-radio__field">
+                                    <span class="custom-radio__text">1. Так.</span>
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <input type="radio" name="ques1" value="2" class="custom-radio__field">
+                                    <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <input type="radio" name="ques1" value="3" class="custom-radio__field">
+                                    <span class="custom-radio__text">3. Ні.</span>
+                                  </label>
+                                </div>
+                              </li>
+                            </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">2. Я краще буду займатися фінансовими операціями, аніж виступати
+                            на сцені.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques2" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques2" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques2" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">3. Ніколи точно не розраховую час, який витрачаю на дорогу до школи. Для мене це здається неможливим.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques3" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques3" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques3" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">4. Ризик — моє друге «Я».</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques4" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques4" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques4" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">5. Терпіти не можу безладу.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques5" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques5" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques5" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">6. Охоче проведу вільний час за книжкою про досягнення в сфері науки.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques6" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques6" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques6" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">7. Мої записи зазвичай не надто добре структуровані та організовані.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques7" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques7" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques7" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">8. Я завжди відкладаю частину грошей на потім, не витрачаючи все й одразу.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques8" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques8" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques8" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">9. У мене на робочому столі скоріше безлад, аніж бездоганний порядок.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques9" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques9" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques9" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">10. Люблю виконувати завдання згідно інструкції, або за чітко вказаним алгоритмом.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques10" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques10" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques10" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class='form-slider__slide swiper-slide'>
+
+                    <ul class="form-list">
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">11. Якби я був колекціонером, то зберігав би все упорядковано: в папках, шухлядах, на поличках тощо.</span>
+
+                            <ul class="choice-list">
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">1. Так.</span>
+                                    <input type="radio" name="ques11" value="1" checked class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">2. Важко відповісти.</span>
+                                    <input type="radio" name="ques11" value="2" class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">3. Ні.</span>
+                                    <input type="radio" name="ques11" value="3" class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                            </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">12. Я дратуюсь, коли потрібно навести лад у кімнаті, впорядкувати, або систематизувати щось.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques12" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques12" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques12" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">13. Люблю працювати за комп’ютером — набирати й оформляти тексти, робити розрахунки.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques13" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques13" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques13" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">14. Перш ніж взятися до роботи, я детально продумаю свої дії.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques14" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques14" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques14" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">15. Вважаю, що черпати інформацію з таблиць та графіків — зручно та швидко.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques15" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques15" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques15" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">16. Я в захваті від ігор, де можна розрахувати шанси на перемогу і зробити обережний, але точний хід.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques16" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques16" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques16" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">17. Вивчаючи іноземну мову, потрібно почати з граматики, а не отримувати розмовний досвід без знання граматичних основ.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques17" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques17" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques17" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">18. Я завжди прагну всебічно вивчити проблему, з якою стикаюся (пошукати інформацію в мережі, прочитати необхідну літературу, проконсультуватися зі спеціалістами).
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques18" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques18" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques18" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">19. Коли я пишу листа, мені важливіше:
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques19" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques19" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques19" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">20. Я маю щоденник, в якому планую свої справи на кілька діб уперед.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques20" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques20" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques20" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class='form-slider__slide swiper-slide'>
+
+                    <ul class="form-list">
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">21. Я не пропускаю нагоди подивитися випуск політичних та економічних новин.</span>
+
+                            <ul class="choice-list">
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">1. Так.</span>
+                                    <input type="radio" name="ques21" value="1" checked class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">2. Важко відповісти.</span>
+                                    <input type="radio" name="ques21" value="2" class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                              <li class="choice-list__item">
+                                <div class="custom-radio">
+                                  <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                    <span class="custom-radio__text">3. Ні.</span>
+                                    <input type="radio" name="ques21" value="3" class="custom-radio__field">
+                                  </label>
+                                </div>
+                              </li>
+                            </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">22. Я хотів би, що моя професія…</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques22" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques22" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques22" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">23. Я виконую роботу в останній момент.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques23" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques23" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques23" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">24. Покористувавшись книгою, я завжди ставлю її на місце.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques24" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques24" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques24" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">25. Лягаючи в ліжко, я напевне знаю, чим займатимусь наступного дня.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques25" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques25" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques25" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">26. У своїх діях і словах керуюсь принципом «Сім раз відміряй, один — відріж».</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques26" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques26" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques26" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">27. Якщо мене чекає відповідальна справа, я неодмінно складу план її виконання.</span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques27" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques27" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques27" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">28. Після довгих посиденьок з друзями я мию посуд вже вранці.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques28" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques28" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques28" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">29. Я відповідально ставлюсь до свого здоров’я.
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques29" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques29" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques29" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                      <li class="form-list__item">
+                        <div class="form-list__label">
+                          <span class="form-list__text">30. Якщо в мене щось не виходить, я…
+                          </span>
+
+                          <ul class="choice-list">
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">1. Так.</span>
+                                  <input type="radio" name="ques30" value="1" checked class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">2. Важко відповісти.</span>
+                                  <input type="radio" name="ques30" value="2" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                            <li class="choice-list__item">
+                              <div class="custom-radio">
+                                <label class="custom-radio__label">
+                                    <span class="custom-radio__content"></span>
+                                  <span class="custom-radio__text">3. Ні.</span>
+                                  <input type="radio" name="ques30" value="3" class="custom-radio__field">
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-slider__nav">
+                <button class='form-slider__btn form-slider__btn--next'>
+                  <svg width='40' height='40'>
+                    <use href='img/sprite/sprite.svg#arrow-r'></use>
+                  </svg>
+                </button>
+                <button class='form-slider__btn form-slider__btn--prev'>
+                  <svg width='40' height='40'>
+                    <use href='img/sprite/sprite.svg#arrow-r'></use>
+                  </svg>
+                </button>
+                <span class='form-slider__pagination'></span>
+              </div>
+            </div>
+
+
+            <div class="questions-form__bottom">
+              <button class="main-button main-button--blue" type="submit">Отримати результати
+                <svg width='40' height='40'>
+                  <use href='img/sprite/sprite.svg#arrow-r'></use>
+                </svg>
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  @include('partials/footer.html')
+  @include('partials/modals.html')
+
+
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

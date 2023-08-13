@@ -1,0 +1,39 @@
+.contact-list {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px 25px;
+
+  @include small-tablet {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: flex-end;
+
+    svg {
+      fill: currentColor;
+    }
+
+    @include small-tablet {
+      &:last-child {
+        grid-column: 1/-1;
+        order: -1;
+      }
+    }
+  }
+
+  &__link {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(16px, 1.709vw, 20px);
+    line-height: 100%;
+    color: rgba(var(--cl-a),1.0);
+  }
+}

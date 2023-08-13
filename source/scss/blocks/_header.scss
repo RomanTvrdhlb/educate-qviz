@@ -1,0 +1,17 @@
+.header {
+  padding: clamp(20px, 2.308vw, 27px) 0 clamp(40px, 6.838vw, 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  &__logo {
+    @include small-tablet {
+      svg {
+        width: clamp(120px, 14.786vw, 173px);
+        height: auto;
+      }
+    }
+  }
+
+}

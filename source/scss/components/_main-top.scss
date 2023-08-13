@@ -1,0 +1,16 @@
+.main-top {
+  display: flex;
+  flex-direction: column;
+  grid-gap: clamp(20px, 2.991vw, 35px);
+  align-items: center;
+
+  &__title {
+    font-family: var(--font-family2);
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(20px, 2.991vw, 35px);
+    line-height: 125%;
+    text-align: center;
+    color: rgba(var(--cl-c),1.0);
+  }
+}

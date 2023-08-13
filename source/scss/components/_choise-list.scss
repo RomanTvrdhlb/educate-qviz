@@ -1,0 +1,10 @@
+.choice-list{
+    display: flex;
+    flex-direction: column;
+    grid-gap: clamp(14px, 1.966vw, 23px);
+
+    &__item{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

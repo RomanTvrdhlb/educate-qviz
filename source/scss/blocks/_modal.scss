@@ -1,0 +1,97 @@
+.modal {
+    background: rgba(var(--bg-h),1.0);
+    border-radius: 50px;
+    max-width: 970px;
+    width: 90vw;
+    padding: clamp(100px, 16.532vw, 205px) clamp(60px, 8.065vw, 100px) clamp(30px, 4.839vw, 60px);
+  
+    &__title {
+      line-height: 130%;
+      color: rgba(var(--cl-l),1.0);
+      font-family: var(--font-family2);
+      font-size: clamp(35px, 4.274vw, 53px);
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    p {
+      line-height: 200%;
+      text-align: center;
+    }
+  
+    &__inner {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      grid-gap: clamp(30px, 4.032vw, 50px);
+      align-items: center;
+  
+    }
+  
+    &__box {
+      display: flex;
+      flex-direction: column;
+      grid-gap: clamp(30px, 4.032vw, 50px);
+      align-items: center;
+    }
+  
+    &__wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-gap: clamp(15px, 2.016vw, 25px);
+    }
+
+    .main-button{
+      max-width: 100%;
+      width: 100%;
+      font-size: clamp(15px, 1.452vw, 18px);
+      padding: clamp(17px, 1.855vw, 23px);
+   
+      &--transparent{
+        color: rgba(var(--cl-d),1.0);
+        border-color: rgba(var(--cl-c), 1);
+
+        &:hover{
+          color: rgba(var(--cl-c), 1);
+        }
+      }
+    }
+
+    &-entry{
+      background-color: rgba(var(--bg-g),1.0);
+      padding: clamp(100px, 10.161vw, 126px) clamp(60px, 8.065vw, 100px) clamp(30px, 4.839vw, 60px);
+
+      .main-form{
+
+        &__title{
+          color: rgba(var(--cl-l),1.0);
+          text-align: center;
+          font-family: var(--font-family1);
+          font-size: clamp(20px, 2.581vw, 32px);
+          line-height: normal;
+          font-weight: 700;
+        }
+
+        &__bottom p{
+          font-size: clamp(16px, 2.727vw, 21px);
+          line-height: 138.095%;
+          text-align: start;
+        }
+      }
+      .main-button{
+        font-size: clamp(16px, 2.258vw, 28px);
+        background-color: rgba(var(--bg-l),1.0);
+
+        &:hover{
+          background-color: rgba(var(--bg-j),1.0);
+        }
+      }
+    }
+
+    @include mobile {
+      padding: 65px 20px 60px;
+    }
+  }
+  

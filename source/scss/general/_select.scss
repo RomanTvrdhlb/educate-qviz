@@ -1,0 +1,133 @@
+.select {
+  position: relative;
+  z-index: 1;
+  user-select: none;
+  width: 100%;
+
+  i {
+    font-style: normal;
+    color: rgba(var(--cl-f),1.0);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    margin-left: -5px;
+  }
+
+  &__header {
+    width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+    height: var(--default-size);
+    background: rgba(var(--bg-n),1.0);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 6;
+
+    & > svg {
+      fill: transparent;
+      stroke: rgba(var(--cl-d),1.0);
+      transition: transform .4s linear;
+    }
+  }
+
+  &__current {
+    flex-grow: 1;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(var(--cl-a),1.0);
+    text-transform: uppercase;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__body {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    height: 0;
+    top: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: height 0.2s ease-in;
+    padding-top: var(--default-size);
+    background: rgba(var(--bg-n),1.0);
+
+    i {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+
+  &__list {
+    padding-bottom: 10px;
+    overflow-y: auto;
+    max-height: 160px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #1D2F51;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+
+  &__option {
+    display: flex;
+    padding: 8px 20px;
+    align-items: center;
+    grid-gap: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(var(--cl-a),1.0);
+
+
+    &:hover {
+      background: #1D2F51;
+    }
+  }
+}
+
+// .select.active .select__body {
+//   height: auto;
+// }
+
+.select.active {
+  z-index: 3;
+
+  .select__header > svg {
+    transform: scaleY(-1);
+  }
+}
+
+
+// .select__item:hover {
+//   // background-color: $color--a;
+//   color: var(--color-f);
+// }
