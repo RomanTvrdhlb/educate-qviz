@@ -1,5 +1,5 @@
 .main-section {
-  padding-bottom: clamp(80px, 21.368vw, 250px);
+  padding-bottom: clamp(60px, 21.368vw, 250px);
 
   position: relative;
   z-index: 1;
@@ -46,9 +46,6 @@
       display: none;
     }
   }
-
-
-  
 
   &__box {
     display: flex;

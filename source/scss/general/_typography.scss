@@ -78,3 +78,33 @@ span{
     max-width: 100%;
   }
 }
+
+.error{
+  z-index: 40;
+  position: fixed;
+  bottom: 5%;
+  left: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(var(--bg-e),1.0);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color:  rgba(var(--cl-a),1.0);
+  transform: translateX(-150%);
+  transition: all .4s;
+  display: flex;
+  flex-direction: column;
+  max-width: 355px;
+  width: 100%;
+
+  span{
+    word-wrap: break-word;
+  }
+
+  &.show{
+    transform: translateX(0);
+  }
+}

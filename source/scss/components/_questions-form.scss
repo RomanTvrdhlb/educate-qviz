@@ -1,7 +1,7 @@
 .questions-form {
   display: flex;
   flex-direction: column;
-  grid-gap: clamp(50px, 6.838vw, 80px);
+  grid-gap: clamp(40px, 6.838vw, 80px);
   width: 100%;
 
   &__bottom{
